@@ -1,0 +1,56 @@
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.flex{
+    display: flex;
+}
+.nav-bar{
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.nav-links{
+    list-style: none;
+    gap: 40px;
+    /* justify-items: center; */
+    font-size: 18px;
+}
+.nav-link{
+    text-decoration: none;
+    
+}
+.btn-contact{
+    background-color: #ff900e;
+    color: white;
+    /* padding: 20px 25px; */
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    height: 50px;
+    width: 197px;
+    text-align: center;
+  }
+.name{
+    font-weight: 700;
+    /* font-size: 2.25rem; */
+}
+.home{
+    color: rgb(74, 207, 248);
+}
+.about{
+    color: #ff900e;
+}
+.faculties{
+    color: #211e1c;
+}
+.admission{
+    color: blueviolet;
+}
+a{
+    font-weight: 500;
+}
