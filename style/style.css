@@ -105,8 +105,82 @@ a{
 
 
 /* Standard Curriculum */
+.standard-curriculum{
+    width: 1440px;
+    height: auto;
+    background-image: url(../assets/bg.png);
+    padding: 60px 0px 60px 0px;
+}
+.sc-content{
+    /* width: 1160px; */
+    width: 1200px;
+    height: 575px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 100px;
+}
+.sc-box{
+    text-align: center;
+    height: 381px;
+    padding: 50px 30px;
+    
+}
+.sc-title{
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sc-heading{
+    font-size: 25px;
+}
+.sc-info{
+    font-size: 15px;
+}
+.b1{
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border-radius: 18px;
+    border: solid 1px rgb(185, 225, 247);
+}
 
-
+.b2{
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border: 0.94px solid rgb(222, 245, 255);
+}
+.b3{
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border: 0.94px solid rgb(242, 232, 255);
+}
+.sc-rm-b{
+    color: rgb(100, 200, 255);
+    text-decoration: none;
+}
+.sc-rm-y{
+color: rgb(240, 170, 0);
+text-decoration: none;
+}
+.sc-rm-p{
+color: rgb(135, 0, 255);
+text-decoration: none;
+}
+.arrow-icon{
+    justify-content: center;
+    gap: 10px;
+}
+.arrow {
+    display: flex;
+    margin: 20 auto;
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+    
+    background-color: rgb(254, 163, 1);
+    
+    border-radius: 50%;
+}
 
 
 
@@ -144,7 +218,7 @@ a{
         /* margin-right: 10px; */
     }
     .menu{
-        display: contents;
+        display: inline-block;
     }
     .banner-content{
         flex-direction: column-reverse;
@@ -165,6 +239,22 @@ a{
     }
     .btn-enroll{
         margin-bottom: 30px;
+    }
+
+
+    .sc-content{
+        flex-direction: column;
+        width: 357px;
+        height: 321.28px;
+        gap: 10px;
+    }
+    .standard-curriculum{
+        margin-top: 250px;
+        height: auto;
+        width: auto;
+    }
+    .arrow{
+        display: none;
     }
 
 }
