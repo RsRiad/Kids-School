@@ -13,6 +13,9 @@
     margin: 0 auto;
     padding: 20px 0;
 }
+.menu{
+    display: none;
+}
 .nav-links{
     list-style: none;
     gap: 40px;
@@ -70,7 +73,7 @@ a{
     color: #ff900e;
 }
 .banner-content{
-    width: 1158px;
+    width: 1200px;
     height: 575px;
     margin: 0 auto;
     gap: 50px;
@@ -96,4 +99,72 @@ a{
     /* justify-content: left; */
     /* text-align: left; */
     
+}
+
+
+
+
+/* Standard Curriculum */
+
+
+
+
+
+
+
+
+/* media query */
+@media screen and (max-width:390px){
+
+    .nav-bar,.banner-content,.nav-links{
+        flex-direction: column;
+    }
+    .name,.btn-contact,.nav-links{
+        display: none;
+    }
+    .nav-bar{
+        border: #eeb069;
+        border-style: solid;
+        border-width: 1px;
+        width: 380px;
+        height: 70px;
+        margin: 0;
+        padding: 0%;
+        margin-bottom: 100px;
+        justify-content: space-around;
+        /* gap: 5px; */
+    }
+    .banner-info{
+    font-weight: 500;
+    width: 370px;
+    /* height: auto; */
+    margin: 0;
+    text-align: center;
+    
+        /* margin-right: 10px; */
+    }
+    .menu{
+        display: contents;
+    }
+    .banner-content{
+        flex-direction: column-reverse;
+        margin: 0;
+        gap: 0;
+        width: 357px;
+        height: 725px;
+        
+        /* margin-right: 100px; */
+    }
+    .h-bg{
+        /* margin-top: 700px; */
+        width: 336px;
+        height: 434px;
+        align-content: center;
+        margin-left: 23px;
+       
+    }
+    .btn-enroll{
+        margin-bottom: 30px;
+    }
+
 }
